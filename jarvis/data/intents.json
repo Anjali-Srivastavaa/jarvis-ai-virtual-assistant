@@ -1,0 +1,74 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "good morning", "good evening", "greetings"],
+      "responses": ["Hello! How can I help you?", "Hi there!", "Greetings!"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you", "exit", "quit", "stop"],
+      "responses": ["Goodbye!", "See you later!", "Have a nice day!"]
+    },
+    {
+      "tag": "time",
+      "patterns": ["what time is it", "tell me the time", "current time", "time please"],
+      "responses": [""]
+    },
+    {
+      "tag": "date",
+      "patterns": ["what is the date", "tell me the date", "current date", "today's date"],
+      "responses": [""]
+    },
+    {
+      "tag": "wikipedia",
+      "patterns": ["wikipedia", "tell me about", "who is", "what is"],
+      "responses": [""]
+    },
+    {
+      "tag": "open_website",
+      "patterns": ["open google", "open youtube", "open stackoverflow", "open github"],
+      "responses": [""]
+    },
+    {
+      "tag": "help",
+      "patterns": ["help", "what can you do", "commands", "features"],
+      "responses": ["I can help you with system tasks, web search, file management, and time/date queries. Try asking 'What time is it?' or 'Open Google'."]
+    },
+    {
+      "tag": "file_create",
+      "patterns": ["create file", "make a file", "new file"],
+      "responses": [""]
+    },
+    {
+      "tag": "file_delete",
+      "patterns": ["delete file", "remove file"],
+      "responses": [""]
+    },
+    {
+      "tag": "folder_create",
+      "patterns": ["create folder", "make directory", "new folder"],
+      "responses": [""]
+    },
+    {
+      "tag": "list_files",
+      "patterns": ["list files", "show files", "what is in this folder"],
+      "responses": [""]
+    },
+    {
+      "tag": "shutdown",
+      "patterns": ["shutdown", "turn off computer"],
+      "responses": [""]
+    },
+    {
+      "tag": "restart",
+      "patterns": ["restart computer", "reboot"],
+      "responses": [""]
+    },
+    {
+      "tag": "time_convert",
+      "patterns": ["convert time", "change seconds to minutes", "convert minutes to hours"],
+      "responses": [""]
+    }
+  ]
+}
